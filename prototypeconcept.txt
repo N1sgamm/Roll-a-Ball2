@@ -1,0 +1,17 @@
+dash
+	when [dash] button is being pressed, increase horizontal velocity
+	set cooldown for dash
+jump
+	if space is being pressed and [value] is 0, increase vertical velocity
+	if space is pressed, [value] is 1. if the ground is being touched, [value] is 0
+player bullets
+	if leftmb is being pressed, spawn bullet towards mouse cursor
+	set a cooldown for spawning bullets
+enemies
+	if the player collides with an enemy, decrease player health
+	if an enemy collides with a player bullet, decrease enemy health
+	if enemy health is 0 or lower, destroy enemy
+enemy bullets
+	if player collides with enemy bullet, decrease player health
+
+pushable objects

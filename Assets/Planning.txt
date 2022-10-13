@@ -1,0 +1,14 @@
+twin stick shooter
+	movement options
+		dash
+		jump (dodge by jumping over?)
+	obstacles
+		moveable objects
+		dodgeable projectile
+		kill objects
+	attacking
+		player projectiles
+	objective?
+		survive?
+		reach point?
+		destroy targets?
